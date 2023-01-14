@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<div style="display:flex;justify-content:center">
+    <div class="card" style="width: 18rem;">
+        <img src="https://static.vecteezy.com/system/resources/previews/004/530/290/original/cute-lungs-mascot-free-vector.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">About Pneumonia</h5>
+          <p class="card-text">Pneumonia is a lung disease that...</p>
+          <a href="pneumonia.html" class="btn btn-primary">More</a>
+        </div>
+      </div>
+      <div>
+        &nbsp;
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">About the tool</h5>
+          <p class="card-text">This tool is an AI based...</p>
+          <a href="abouttool.html" class="btn btn-primary">More</a>
+        </div>
+      </div>
+  </div>
+<center><img src="{{ url_for('static', filename= filename) }}" alt="" style="width: 300px; height:300px;"></center>
+<br>
+<br>
+{% if show==True %}
+<center>
+
+    {% if message=="Healthy" %}
+    <h3><span class="badge badge-success">{{message}}</span></h3>
+    {%endif%}
+
+    {% if message=="Pneumonic" %}
+    <h3><span class="badge badge-danger">{{message}}</span></h3>
+    {%endif%}
+    <br>
+    <br>
+
+    <a href="/" class="btn btn-info" role="button">Go Back</a>
+</center>
+{% else %}
+<center>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="file" style="position: relative; justify-content: center;">Upload Chest X-Ray Image:</label>
+        <input type="file" name="img" id="img" style="justify-content: center;">
+        <br>
+        <button type="submit" class="btn btn-info ml-3" style="position: relative; justify-content: center;">Submit</button>
+    </form>
+    <br>
+    <br>
+    {{message}}
+</center>
+{% endif %}
+{% endblock%}
